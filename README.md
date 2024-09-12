@@ -1,5 +1,7 @@
 # Fashion Items AI Classifier Web App
 
+![AI Image Classification Demo](classification%20demo.gif)
+
 ## Project Overview
 
 This project is an AI-powered image classification web application that can classify fashion items into categories such as T-shirts, trousers, dresses, etc. It leverages a pre-trained neural network model, hosted with TensorFlow Serving, to predict categories of fashion items from the Fashion MNIST dataset. The app is built using Flask for the web framework, and the machine learning model is integrated via an API.
