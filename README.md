@@ -14,30 +14,7 @@ This project is an AI-powered image classification web application that can clas
 
 ## Project Structure
 
-Fashion_Items_AI_Classifier_Web_App/
-│
-├── app/
-│   ├── static/
-│   ├── templates/
-│   ├── __pycache__/
-│   ├── app.py             # Main Flask application code
-│   ├── inference.py        # Model inference logic
-│   ├── show.html           # Results page template
-│   └── index.html          # Upload page template
-│
-├── models/
-│   ├── clothing_model/     # TensorFlow Serving model folder
-│   │   ├── 1/
-│   │   │   ├── saved_model.pb  # Model binary file
-│   │   │   ├── assets/
-│   │   │   ├── variables/
-│
-├── .elasticbeanstalk/       # AWS Elastic Beanstalk configuration
-├── .gitignore
-├── Dockerfile               # Dockerfile to build the Flask app
-├── docker-compose.yml       # Docker Compose file for multi-container setup
-├── requirements.txt         # Python dependencies
-└── README.md                # Documentation (this file)
+Fashion_Items_AI_Classifier_Web_App/ ├── app/ │ ├── static/ │ ├── templates/ │ ├── pycache/ │ ├── app.py # Main Flask application code │ └── inference.py # Model inference logic ├── models/ │ └── clothing_model/ │ ├── 1/ │ └── saved_model.pb # Model binary file ├── .elasticbeanstalk/ # AWS Elastic Beanstalk configuration ├── .gitignore ├── docker-compose.yml # Docker Compose file for multi-container setup ├── Dockerfile # Dockerfile to build the Flask app ├── requirements.txt # Python dependencies └── README.md # Documentation (this file)
 
 
 ## Tech Stack
