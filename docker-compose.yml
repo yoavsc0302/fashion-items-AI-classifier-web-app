@@ -1,0 +1,21 @@
+
+services:
+  flask-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - ./app:/app
+    depends_on:
+      - tensorflow-serving
+
+  tensorflow-serving:
+    image: tensorflow/serving:latest
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./models:/models
+    environment:
+      - MODEL_NAME=clothing_model

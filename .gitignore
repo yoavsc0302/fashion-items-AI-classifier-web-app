@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+
+# Database files
+*.db
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+
+# Allow necessary Beanstalk config files to demonstrate usage
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Docker files (show Dockerfile and docker-compose.yml, but not container-generated content)
+*.log
+docker-compose.override.yml
+.env.docker
+
+# VS Code settings (you don't need to show personal settings)
+.vscode/
+
+# OS generated files (e.g., macOS or Windows system files)
+.DS_Store
+Thumbs.db
+
+# Model directories (if you don’t want to include large models, but include the structure)
+models/*.h5
+models/*.pb
+
+# Logs and debug output
+*.log
+
+# Dependency directories
+node_modules/
+venv/
