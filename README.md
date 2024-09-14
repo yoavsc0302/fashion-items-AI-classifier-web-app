@@ -4,7 +4,9 @@
 
 ## Project Overview
 
-This project is an AI-powered image classification web application that can classify fashion items into categories such as T-shirts, trousers, dresses, etc. It leverages a pre-trained neural network model, hosted with TensorFlow Serving, to predict categories of fashion items from the Fashion MNIST dataset. The app is built using Flask for the web framework, and the machine learning model is integrated via an API.
+The Fashion Items AI Classifier Web App is an end-to-end machine learning solution designed to classify fashion items from user-uploaded images. The project integrates a custom-trained TensorFlow model into a Flask web application, enabling real-time image classification. The web app utilizes Docker for containerization, ensuring consistent deployment across environments. The model is served via TensorFlow Serving, and the entire application is deployed on AWS Elastic Beanstalk, providing scalable and reliable hosting.
+
+This project demonstrates expertise in key technologies such as TensorFlow for model development, Flask for the web interface, and Docker for containerization. It also highlights knowledge of MLOps principles, particularly in model serving and cloud deployment. By creating and deploying this project, I gained hands-on experience with the full lifecycle of AI model management, including training, deployment, and real-world inference.
 
 ## Features
 
